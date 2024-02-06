@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage biZaX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+            <h1>Contact Us
+            </h1>
+    </section>
+
+<div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d208.65331982737283!2d77.29498022363514!3d28.610594739330224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1699597555377!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<!-- ----------contact-----------us -->
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-home"></i>
+                <span>
+                    <h5>XYZ Road,ABC building</h5>
+                    <p>Delhi,Mayur Vihar,Phase-1</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91 6205679823</h5>
+                    <p>Delhi,Mayur Vihar,Phase-1</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info@bizax.com</h5>
+                    <p>Email your Query</p>
+                </span>
+            </div>
+
+        </div>
+
+        <div class="contact-col">
+            <form action="form.php" method="post">
+                <input type="text" placeholder="Name" required name="Name" >
+
+                <input type="email" placeholder="Email" required name="Email">
+
+                <input type="text" placeholder="Subject" required name="Subject">
+                <textarea placeholder="Message" rows="5"required name="Message"></textarea>
+
+                <button type="submit" class="hero-btn red-btn" >Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perferendis, dolor atque sed recusandae eius veritatis rem ipsam minima corporis sint aliquam accusamus omnis, non tempora, qui at vel quia!</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa-solid fa-heart"></i> by <strong>biZaX</strong></p>
+</section>
+
+
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-100%";
+        }
+    </script>
+</body>
+
+</html>

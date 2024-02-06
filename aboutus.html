@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage biZaX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+            <h1>About Us
+            </h1>
+    </section>
+
+
+<!-- ----------------about us------------------- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the worlds largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequatur velit aut voluptatem officiis laborum architecto hic, enim recusandae, dignissimos unde autem asperiores porro earum. Eos beatae recusandae fugit? Sit officiis eum ea distinctio accusantium iusto eligendi minima delectus harum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos rerum deserunt quo, temporibus inventore quisquam autem dicta reprehenderit dignissimos. Eligendi.</p>
+
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+
+
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perferendis, dolor atque sed recusandae eius veritatis rem ipsam minima corporis sint aliquam accusamus omnis, non tempora, qui at vel quia!</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa-solid fa-heart"></i> by <strong>biZaX</strong></p>
+</section>
+
+
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-100%";
+        }
+    </script>
+</body>
+
+</html>
